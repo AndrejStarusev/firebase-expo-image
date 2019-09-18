@@ -1,5 +1,5 @@
-# use latest Node LTS (currently Dubnium)
-FROM node:dubnium
+# use Node 10.15
+FROM node:10.15
 
 # set user to avoid permission issues
 # (see https://github.com/nodejs/node-gyp/issues/1236)
